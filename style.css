@@ -1,0 +1,4 @@
+/* Extends Bootstrap badge: https://getbootstrap.com/docs/4.5/components/badge/ */
+.badge-fullsize {
+    font-size: 100%;
+}

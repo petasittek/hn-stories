@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hacker News - top & newest</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href=".">Hacker News - top & newest</a>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm my-4">
+            <h2 class="text-center">
+                Top stories <span class="badge badge-secondary js-top-count">0</span>
+            </h2>
+
+            <div class="js-top-stories">
+                <div class="text-center my-5">
+                    <div class="spinner-border text-primary" role="status"></div>
+                    <div>Loading...</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm my-4">
+            <h2 class="text-center">
+                Newest stories <span class="badge badge-secondary js-new-count">0</span>
+            </h2>
+
+            <div class="js-new-stories">
+                <div class="text-center my-5">
+                    <div class="spinner-border text-primary" role="status"></div>
+                    <div>Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/d015946c3e.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
