@@ -23,7 +23,7 @@
     /**
      * Get story details from Algolia API
      *
-     * @param storyType One of: top, new
+     * @param ids IDs of requested stories
      */
     const getStoryDetails = async (ids) => {
         // TODO: Algolia API returns max 20 details at once
